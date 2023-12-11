@@ -14,7 +14,7 @@ Definition of "around": Points around a point are points that are directly conne
 
 ### Input Description
 
-The first line is a positive integer $n$, representing the number of vertices of the tree ($1 \le n \le 100000).
+The first line is a positive integer $n$, representing the number of vertices of the tree ($1 \le n \le 100000$).
 
 ### Output Description
 
