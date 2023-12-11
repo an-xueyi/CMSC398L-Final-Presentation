@@ -22,7 +22,7 @@ It is guaranteed that the input must be a legal tree.
 
 ### Output Description
 
-If the coloring requirement can be reached, output a string with length $n$. The first $i$ character represents the coloring of the $i$-th vertex, with $'B'$ as blue, and $'R'$ as red. (If there are multiple legal coloring methods, output any one of them.) 
+If the coloring requirement can be reached, output a string with length $n$. The first $i$ character represents the coloring of the $i$-th vertex, with `'B'` as blue, and `'R'` as red. (If there are multiple legal coloring methods, output any one of them.) 
 
 Otherwise, output $-1$ directly.
 
