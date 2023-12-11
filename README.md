@@ -45,6 +45,16 @@ RRBB
 
 ## Analysis
 
+This is a very straightforward constructive question.
+
+For a leaf node, there is only one point around: its parent. So this node must be the same color as its parent. Also, a node has at most one child node that is a leaf node.
+
+Using dfs to iterate the tree. If a node is a leaf node, then mark it as the same number as its parent. If a node is not a leaf node and is not marked as the same number as its child tree, then mark it as the same number as its parent.
+
+Noted if a node is marked twice, then there is no solution. If the tree has only the root node, there is no solution as well.
+
+Then we use a dfs to iterate the tree again to gain the output information. If there is a node that has the same number as its parent, then they have the same color, if not, they have the opposite color.
+
 ## Solution
 
 ```c++
