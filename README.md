@@ -1,5 +1,7 @@
 # CMSC398L Final Presentation
 
+Xueyi An
+
 ## Problem: Red and Blue
 
 ### Problem Description
@@ -53,7 +55,7 @@ Noted if a node is marked twice, then there is no solution. If the tree has only
 
 Then we use a dfs to iterate the tree again to gain the output information. If there is a node that has the same number as its parent, then they have the same color, if not, they have the opposite color.
 
-## Solution
+## C++ Implementation
 
 ```c++
 #include<bits/stdc++.h>
@@ -75,7 +77,7 @@ void dfs (int x, int fa) {
         dfs(i, x);
         son++;
     }
-    if (son == 0 ||(!f[x])) {
+    if (son == 0 || (!f[x])) {
         if (f[fa] || fa == 0) {
             flag = 0;
             return;
