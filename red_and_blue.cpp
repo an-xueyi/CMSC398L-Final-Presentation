@@ -17,7 +17,7 @@ void dfs (int x, int fa) {
         dfs(i, x);
         son++;
     }
-    if (son == 0 ||(!f[x])) {
+    if (son == 0 || (!f[x])) {
         if (f[fa] || fa == 0) {
             flag = 0;
             return;
