@@ -2,8 +2,6 @@
 
 ## Problem: Red and Blue
 
-This is a problem written in Chinese, so I translated it as below.
-
 ### Problem Description
 
 You have been given a tree and have been asked to color each vertex red or blue.
@@ -45,7 +43,7 @@ RRBB
 
 ## Analysis
 
-This is a very straightforward constructive question.
+This is a very straightforward constructive problem.
 
 For a leaf node, there is only one point around: its parent. So this node must be the same color as its parent. Also, a node has at most one child node that is a leaf node.
 
